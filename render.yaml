@@ -1,0 +1,18 @@
+
+services:
+  - type: web
+    name: dashytesty
+    env: node
+    plan: free
+    branch: main
+    healthCheckPath: /
+    autoDeploy: true
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: BASE_URL
+        value: https://dashboard-dev-dkgh.onrender.com
+      - key: CLIENT_ID
+        value: a863acb6f789bc5bf7f9fa794a3dd871
+      - key: CLIENT_SECRET
+        value: cd2147bb4c44fb34991d54cd90976a85
