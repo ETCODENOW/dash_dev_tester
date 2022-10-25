@@ -15,6 +15,7 @@
   },
   "dependencies": {
     "@kustomer/apps-server-sdk": "^0.0.46",
-    "dotenv": "^16.0.1"
+    "dotenv": "^16.0.1",
+    "sinon": "^14.0.1"
   }
 }
